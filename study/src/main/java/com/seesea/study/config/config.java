@@ -4,6 +4,7 @@ import com.seesea.rely.aop.Inteceptor;
 import com.seesea.rely.handle.UpAnHandle;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.aspectj.lang.annotation.Pointcut;
 
 /**
  * @Description
@@ -16,6 +17,9 @@ public class config {
 
     @Bean
     public Inteceptor get() throws NoSuchMethodException, IllegalAccessException, NoSuchFieldException, ClassNotFoundException {
-        return new UpAnHandle().upHandle("com.seesea.study.service");
+        Inteceptor inteceptor = new UpAnHandle().upHandle("com.seesea.study.service");
+        Pointcut pointcut = inteceptor.getClass().getDeclaredMethod("pointCut").getAnnotation(Pointcut.class);
+        System.out.println("修cc之 c     值：\t" + pointcut.value());
+        return inteceptor;
     }
 }

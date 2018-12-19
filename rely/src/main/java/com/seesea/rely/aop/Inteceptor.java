@@ -32,10 +32,10 @@ public class Inteceptor {
     public void before(JoinPoint joinPoint) {
         Object[] o = joinPoint.getArgs();
         for(Object o1:o){
-            logger.info("哈啊"+o1);
+            logger.info("校验Before object"+o1);
         }
         String name = joinPoint.getSignature().getName();
-        logger.info("哈啊啊"+name);
+        logger.info("校验Before name"+name);
 
     }
 
@@ -45,6 +45,10 @@ public class Inteceptor {
 //            logger.info("嘻嘻啊"+o1);
 //        }
 //        String name = joinPoint.getSignature().getName();
-        logger.info("嘻嘻啊"+joinPoint);
+        logger.info("校验 After"+joinPoint);
+        Object[] o = joinPoint.getArgs();
+        for(Object o1:o){
+            logger.info("校验 After object"+o1);
+        }
     }
 }

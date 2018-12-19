@@ -35,9 +35,16 @@ public class UpAnHandle {
         memberValues.put("value",buffer.toString());
         // 获取 foo 的 value 属性值
         String newValue = pointcut.value();
-        System.out.println("修改之后的注解值：" + newValue);
+        System.out.println("修改之后的 注解值：\t" + newValue);
 
-        Inteceptor Inteceptor2 = new Inteceptor();
-        return Inteceptor2;
+        Pointcut pointcut2 = inteceptor.getClass().getDeclaredMethod("pointCut").getAnnotation(Pointcut.class);
+        System.out.println("修改之    注解值：\t" + pointcut2.value());
+
+
+        Inteceptor inteceptor2 = new Inteceptor();
+        Pointcut pointcut3 = inteceptor2.getClass().getDeclaredMethod("pointCut").getAnnotation(Pointcut.class);
+        System.out.println("修改之 注     值：\t" + pointcut3.value());
+
+        return inteceptor2;
     }
 }

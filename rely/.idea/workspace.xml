@@ -1,10 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a50bf169-97c8-404f-8301-c05606e83bcd" name="Default" comment="" />
+    <list default="true" id="a50bf169-97c8-404f-8301-c05606e83bcd" name="Default" comment="">
+      <change afterPath="F:/experiment/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__com_netease_cloud_nos_sdk_java_publiccloud_1_3_1.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__com_qcloud_cos_api_5_4_6.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_5_0.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__javax_batch_javax_batch_api_1_0.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__joda_time_joda_time_2_9_6.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_12.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_59.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_8_7.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_2.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_jsoup_jsoup_1_11_3.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_3_0.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_0.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_mongodb_mongo_java_driver_3_8_2.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_0.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_slf4j_slf4j_api_1_8_0_beta2.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_21.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_springframework_batch_spring_batch_core_4_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_springframework_batch_spring_batch_infrastructure_4_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_springframework_spring_aop_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_springframework_spring_beans_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_springframework_spring_context_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_springframework_spring_core_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_springframework_spring_expression_5_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__org_springframework_spring_tx_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/modules.xml" afterDir="false" />
+      <change afterPath="F:/experiment/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="F:/experiment/src/main/java/akka/ActorMain.java" afterDir="false" />
+      <change afterPath="F:/experiment/src/main/java/akka/DisposeMsgActor.java" afterDir="false" />
+      <change afterPath="F:/experiment/src/main/java/akka/Msg.java" afterDir="false" />
+      <change afterPath="F:/experiment/src/main/java/akka/ProduceMsgActor.java" afterDir="false" />
+      <change afterPath="F:/experiment/src/main/java/unitTest/Assert.java" afterDir="false" />
+      <change afterPath="F:/experiment/src/main/java/unitTest/Test1.java" afterDir="false" />
+      <change beforePath="F:/experiment/.idea/compiler.xml" beforeDir="false" afterPath="F:/experiment/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="F:/experiment/.idea/workspace.xml" beforeDir="false" afterPath="F:/experiment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="F:/experiment/pom.xml" beforeDir="false" afterPath="F:/experiment/pom.xml" afterDir="false" />
+      <change beforePath="F:/experiment/src/main/java/play/Man.java" beforeDir="false" afterPath="F:/experiment/src/main/java/play/Man.java" afterDir="false" />
+      <change beforePath="F:/experiment/src/main/java/unitTest/UnitTest.java" beforeDir="false" afterPath="F:/experiment/src/main/java/unitTest/UnitTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../study/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="F:/experiment/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,25 +77,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LogFilter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../study/src/main/java/com/seesea/study/filter/LogFilter.java">
+      <file leaf-file-name="TestService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../study/src/main/java/com/seesea/study/service/TestService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+            <state relative-caret-position="292">
+              <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1070#1071#0" expanded="true" />
-                <element signature="e#1105#1106#0" expanded="true" />
+                <element signature="e#1740#1741#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MDC.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar!/org/slf4j/MDC.java">
+      <file leaf-file-name="Runable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/seesea/rely/thread/Runable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="146" selection-start-line="146" selection-end-line="146" />
+            <state relative-caret-position="150">
+              <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+              <folding>
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogMDC.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/seesea/rely/thread/LogMDC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+              <folding>
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,48 +131,98 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>MapperScan</find>
       <find>provided</find>
       <find>buffer</find>
-      <find>Pointcut</find>
       <find>test</find>
       <find>servletRequest</find>
       <find>servletRequest。。</find>
       <find>restartedMain</find>
       <find>restart</find>
       <find>1111a</find>
+      <find>logPath</find>
+      <find>销毁方法</find>
+      <find>reqNo</find>
+      <find>哈啊1</find>
+      <find>哈啊啊test</find>
+      <find>execution(public * com.seesea.study.service.TestService.test(..))</find>
+      <find>Pointcut</find>
+      <find>com.seesea.study.service</find>
+      <find>service</find>
+      <find>de7573cd-8643-4909-be6c-19a5bd69b684</find>
+      <find>哈啊</find>
+      <find>哈啊啊</find>
+      <find>BaseException</find>
+      <find>ERR_0000</find>
+      <find>ExceptionHandlerExceptionResolver</find>
+      <find>name</find>
+      <find>销毁</find>
+      <find>msgSystem</find>
+      <find>receive msg</find>
+      <find>生產一個消息</find>
+      <find>ProduceMsgActor 收到消息</find>
+      <find>75125b609b22</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="F:/experiment" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../study/src/main/resources/generator/generatorConfig-mysql.xml" />
-        <option value="$PROJECT_DIR$/../study/src/main/java/com/seesea/study/common/BaseMapper.java" />
-        <option value="$PROJECT_DIR$/../study/pom.xml" />
-        <option value="$PROJECT_DIR$/../study/src/test/java/com/seesea/study/controller/TestControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/seesea/rely/service.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/seesea/rely/service/service.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/seesea/rely/service/Service.java" />
-        <option value="$PROJECT_DIR$/../study/src/main/java/com/seesea/study/service/impl/ServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../study/src/main/java/com/seesea/study/StudyApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/seesea/rely/annotation/FunAn.java" />
         <option value="$PROJECT_DIR$/../study/src/main/java/com/seesea/study/model/User.java" />
         <option value="$PROJECT_DIR$/../study/src/main/java/com/seesea/study/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/seesea/rely/handle/ScanHandle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/seesea/rely/annotation/Name.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/seesea/rely/aop/inteceptor.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/../study/src/main/java/com/seesea/study/config/config.java" />
-        <option value="$PROJECT_DIR$/../study/src/main/java/com/seesea/study/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/../study/src/main/java/com/seesea/study/service/TestService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/seesea/rely/handle/UpAnHandle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/seesea/rely/aop/Inteceptor.java" />
         <option value="$PROJECT_DIR$/../study/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/../study/src/main/resources/logback.xml" />
+        <option value="F:/experiment/src/main/java/time/DateUtil.java" />
+        <option value="F:/experiment/src/main/java/time/TimeDemo.java" />
+        <option value="$PROJECT_DIR$/../study/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seesea/rely/handle/UpAnHandle.java" />
+        <option value="$PROJECT_DIR$/../study/src/main/java/com/seesea/study/config/config.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seesea/rely/Base/BaseController.java" />
+        <option value="$PROJECT_DIR$/../study/src/main/java/com/seesea/study/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seesea/rely/aop/Inteceptor.java" />
+        <option value="$PROJECT_DIR$/../study/src/main/java/com/seesea/study/model/OneList.java" />
+        <option value="$PROJECT_DIR$/../study/src/main/java/com/seesea/study/common/Rsp.java" />
+        <option value="$PROJECT_DIR$/../study/src/main/java/com/seesea/study/model/Heihei.java" />
+        <option value="$PROJECT_DIR$/../study/src/main/java/com/seesea/study/common/Req.java" />
+        <option value="$PROJECT_DIR$/../study/src/main/java/com/seesea/study/common/Result.java" />
+        <option value="$PROJECT_DIR$/../study/src/main/java/com/seesea/study/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/../study/src/main/java/com/seesea/study/common/BaseController.java" />
+        <option value="$PROJECT_DIR$/../study/src/main/java/com/seesea/study/common/BaseEnum.java" />
+        <option value="$PROJECT_DIR$/../study/src/main/java/com/seesea/study/common/BaseException.java" />
+        <option value="$PROJECT_DIR$/../study/src/main/java/com/seesea/study/common/ErrorEnum.java" />
         <option value="$PROJECT_DIR$/../study/src/main/java/com/seesea/study/filter/LogFilter.java" />
+        <option value="$PROJECT_DIR$/../study/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seesea/rely/Base/Test.java" />
+        <option value="F:/experiment/src/main/java/unitTest/UnitTest.java" />
+        <option value="F:/experiment/src/main/java/unitTest/Ass.java" />
+        <option value="F:/experiment/src/main/java/play/Man.java" />
+        <option value="F:/experiment/src/main/java/unitTest/Assert.java" />
+        <option value="F:/experiment/src/main/java/unitTest/Test1.java" />
+        <option value="F:/experiment/pom.xml" />
+        <option value="F:/experiment/src/main/java/akka/ProduceMsgActor.java" />
+        <option value="F:/experiment/src/main/java/akka/DisposeMsgActor.java" />
+        <option value="F:/experiment/src/main/java/akka/Msg.java" />
+        <option value="F:/experiment/src/main/java/akka/ActorMain.java" />
+        <option value="$PROJECT_DIR$/../study/src/main/java/com/seesea/study/StudyApplication.java" />
+        <option value="$PROJECT_DIR$/../study/src/main/java/com/seesea/study/service/impl/ServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seesea/rely/akka/DisposeMsgActor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seesea/rely/akka/ProduceMsgActor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seesea/rely/akka/ActorMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seesea/rely/thread/ThreadPoolUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seesea/rely/thread/ThreadPoolManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seesea/rely/thread/Runable.java" />
+        <option value="$PROJECT_DIR$/../study/src/main/java/com/seesea/study/service/TestService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seesea/rely/thread/LogMDC.java" />
       </list>
     </option>
   </component>
@@ -103,43 +234,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="rely" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="rely" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="rely" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="rely" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="study" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="study" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="study" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -147,19 +242,65 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-7" />
+    <option name="y" value="2" />
+    <option name="width" value="1378" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="rely" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rely" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rely" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rely" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rely" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rely" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rely" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rely" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rely" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rely" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rely" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rely" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rely" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rely" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rely" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rely" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="rely" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
@@ -174,6 +315,49 @@
               <item name="study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rely" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rely" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rely" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rely" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rely" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rely" type="b2602c69:ProjectViewProjectNode" />
@@ -187,7 +371,6 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -200,21 +383,28 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../study/pom.xml" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.12/2.5.19/akka-actor_2.12-2.5.19-sources.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15125324" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.seesea.study.controller" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="unitTest" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.seesea.rely.thread" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\study\rely\src\main\java\com\seesea\rely" />
       <recent name="F:\study\study\src\main\resources" />
     </key>
   </component>
@@ -231,31 +421,63 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.StudyApplication">
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration name="ActorMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.seesea.rely.akka.ActorMain" />
+      <module name="rely" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="TestControllerTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.seesea.study.controller.*" />
+          <option name="PATTERN" value="com.seesea.rely.akka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.seesea.study.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.seesea.study.controller.TestControllerTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+    </configuration>
+    <configuration name="ActorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="akka.ActorMain" />
+      <module name="experiment" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="akka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Assert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unitTest.Assert" />
+      <module name="experiment" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unitTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="IsNull" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="play.IsNull" />
+      <module name="experiment" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="play.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unitTest.Test1" />
+      <module name="experiment" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unitTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -301,11 +523,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.StudyApplication" />
-      <item itemvalue="JUnit.TestControllerTest.test1" />
+      <item itemvalue="Application.Assert" />
+      <item itemvalue="Application.IsNull" />
+      <item itemvalue="Application.Test1" />
+      <item itemvalue="Application.ActorMain" />
+      <item itemvalue="Application.ActorMain (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestControllerTest.test1" />
+        <item itemvalue="Application.ActorMain (1)" />
+        <item itemvalue="Application.ActorMain" />
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.IsNull" />
+        <item itemvalue="Application.Assert" />
       </list>
     </recent_temporary>
   </component>
@@ -322,8 +552,17 @@
       <workItem from="1544163343386" duration="1000" />
       <workItem from="1544163682399" duration="11572000" />
       <workItem from="1544421453561" duration="16723000" />
-      <workItem from="1544666331762" duration="2935000" />
+      <workItem from="1544666331762" duration="15550000" />
+      <workItem from="1544690576390" duration="23334000" />
     </task>
+    <task id="LOCAL-00001" summary="提交">
+      <created>1544672846109</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544672846110</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -335,11 +574,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31231000" />
+    <option name="totallyTimeSpent" value="67180000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" weight="0.59013605" />
@@ -351,18 +589,18 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" visible="true" weight="0.29081634" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.008517887" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.2755102" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.274276" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37414965" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2572402" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49799198" visible="true" weight="0.20045386" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49799198" visible="true" weight="0.27609682" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="3" sideWeight="0.502008" side_tool="true" weight="0.2730711" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -382,52 +620,20 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/seesea/rely/aop/Inteceptor.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/seesea/rely/handle/UpAnHandle.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/seesea/rely/handle/UpAnHandle.java</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/../study/src/main/java/com/seesea/study/service/TestService.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../study/src/main/java/com/seesea/study/filter/LogFilter.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar!/ch/qos/logback/classic/util/LogbackMDCAdapter.java</url>
           <line>99</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar!/org/slf4j/MDC.java</url>
-          <line>146</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar!/org/slf4j/helpers/BasicMDCAdapter.java</url>
           <line>72</line>
           <properties />
@@ -437,104 +643,137 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="18" />
+      <option name="time" value="46" />
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>e</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.jar!/org/aspectj/lang/annotation/Before.class">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Throwable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="-1123">
+          <caret line="113" column="13" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.jar!/org/aspectj/lang/reflect/SourceLocation.class">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Exception.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/seesea/rely/handle/ScanHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.jar!/org/aspectj/lang/annotation/Pointcut.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/reflect/InvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/jre/lib/rt.jar!/sun/reflect/annotation/AnnotationInvocationHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="34" column="61" lean-forward="true" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
+        <state relative-caret-position="105">
+          <caret line="36" column="50" lean-forward="true" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+          <folding>
+            <element signature="e#2406#2407#0" expanded="true" />
+            <element signature="e#2443#2444#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.3.RELEASE/spring-core-5.1.3.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        <state relative-caret-position="123">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.jar!/org/aspectj/lang/JoinPoint.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.3.RELEASE/spring-webmvc-5.1.3.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ExceptionHandlerExceptionResolver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../study/src/main/java/com/seesea/study/config/config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+        <state relative-caret-position="105">
+          <caret line="49" column="67" lean-forward="true" selection-start-line="49" selection-start-column="67" selection-end-line="49" selection-end-column="67" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#15558#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/2.1.1.RELEASE/spring-boot-devtools-2.1.1.RELEASE.jar!/org/springframework/boot/devtools/remote/server/DispatcherFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.13/tomcat-embed-core-9.0.13.jar!/javax/servlet/Filter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/seesea/rely/handle/UpAnHandle.java">
+    <entry file="file://$PROJECT_DIR$/../study/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../study/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-206">
+          <caret line="84" column="42" selection-start-line="84" selection-start-column="42" selection-end-line="84" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../study/src/main/java/com/seesea/study/common/BaseEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../study/src/main/java/com/seesea/study/common/BaseException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../study/src/main/java/com/seesea/study/controller/TestController.java">
+    <entry file="file://$PROJECT_DIR$/../study/src/main/java/com/seesea/study/common/BaseMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        <state relative-caret-position="180">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../study/src/main/java/com/seesea/study/common/ErrorEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../study/src/main/java/com/seesea/study/common/Rsp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../study/src/main/java/com/seesea/study/common/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="59" column="14" lean-forward="true" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../study/src/main/java/com/seesea/study/common/Req.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../study/src/main/java/com/seesea/study/common/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -543,211 +782,337 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/seesea/rely/aop/Inteceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="145">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.2.RELEASE/spring-core-5.1.2.RELEASE.jar!/org/springframework/util/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+          <folding>
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1103#1104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seesea/rely/Base/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/experiment/src/main/java/play/IsNull.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="23" column="2" selection-start-line="23" selection-end-line="23" selection-end-column="2" />
+          <folding>
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/experiment/src/main/java/play/Man.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/experiment/src/main/java/Hook/HowNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/experiment/src/main/java/Hook/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/experiment/src/main/java/unitTest/UnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/experiment/src/main/java/unitTest/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/experiment/src/main/java/unitTest/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../study/src/main/java/com/seesea/study/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.12/2.5.19/akka-actor_2.12-2.5.19.jar!/akka/japi/pf/FI.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/experiment/src/main/java/akka/DisposeMsgActor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/experiment/src/main/java/akka/Msg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.12/2.5.19/akka-actor_2.12-2.5.19-sources.jar!/akka/annotation/ApiMayChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.12/2.5.19/akka-actor_2.12-2.5.19.jar!/akka/actor/Actor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <element signature="e#6631#6632#0" expanded="true" />
+            <element signature="e#6671#6672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/experiment/src/main/java/akka/ActorMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/experiment/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="139" column="20" selection-start-line="139" selection-start-column="20" selection-end-line="139" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.12/2.5.19/akka-actor_2.12-2.5.19.jar!/akka/actor/ActorSystem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="95" column="30" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
+          <folding>
+            <element signature="e#20201#20202#0" expanded="true" />
+            <element signature="e#20257#20258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.12/2.5.19/akka-actor_2.12-2.5.19.jar!/akka/actor/ActorRef.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding>
+            <element signature="e#3247#3248#0" expanded="true" />
+            <element signature="e#3303#3304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/experiment/src/main/java/akka/ProduceMsgActor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seesea/rely/akka/Msg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seesea/rely/akka/DisposeMsgActor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.12/2.5.19/akka-actor_2.12-2.5.19-sources.jar!/akka/japi/pf/FI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="96" column="26" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seesea/rely/akka/ProduceMsgActor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seesea/rely/akka/ActorMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seesea/rely/thread/ThreadPoolUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3555">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../study/src/main/java/com/seesea/study/StudyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../study/src/main/java/com/seesea/study/service/impl/ServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../study/src/main/java/com/seesea/study/service/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../study/src/main/java/com/seesea/study/filter/LogFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="67" column="31" lean-forward="true" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seesea/rely/thread/ThreadPoolManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="100" column="27" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
+          <folding>
+            <element signature="e#1800#1801#0" expanded="true" />
+            <element signature="e#1831#1832#0" expanded="true" />
+            <element signature="e#1890#1891#0" expanded="true" />
+            <element signature="e#1924#1925#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../study/src/main/java/com/seesea/study/service/TestService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="292">
+          <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1740#1741#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.11.1/log4j-api-2.11.1.jar!/org/apache/logging/log4j/util/Constants.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.11.1/log4j-api-2.11.1.jar!/Log4j-charsets.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-511" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.11.1/log4j-api-2.11.1.jar!/META-INF/NOTICE">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.11.1/log4j-api-2.11.1.jar!/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-542" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.11.1/log4j-api-2.11.1.jar!/META-INF/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.11.1/log4j-api-2.11.1.jar!/META-INF/DEPENDENCIES">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.11.1/log4j-api-2.11.1.jar!/META-INF/services/org.apache.logging.log4j.util.PropertySource">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.11.1/log4j-api-2.11.1.jar!/META-INF/maven/org.apache.logging.log4j/log4j-api/pom.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.11.1/log4j-api-2.11.1.jar!/META-INF/maven/org.apache.logging.log4j/log4j-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3240" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-to-slf4j/2.11.1/log4j-to-slf4j-2.11.1.jar!/META-INF/maven/org.apache.logging.log4j/log4j-to-slf4j/pom.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-to-slf4j/2.11.1/log4j-to-slf4j-2.11.1.jar!/META-INF/maven/org.apache.logging.log4j/log4j-to-slf4j/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-to-slf4j/2.11.1/log4j-to-slf4j-2.11.1.jar!/META-INF/services/org.apache.logging.log4j.spi.Provider">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-to-slf4j/2.11.1/log4j-to-slf4j-2.11.1.jar!/META-INF/DEPENDENCIES">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-to-slf4j/2.11.1/log4j-to-slf4j-2.11.1.jar!/META-INF/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-to-slf4j/2.11.1/log4j-to-slf4j-2.11.1.jar!/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-to-slf4j/2.11.1/log4j-to-slf4j-2.11.1.jar!/META-INF/NOTICE">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-to-slf4j/2.11.1/log4j-to-slf4j-2.11.1.jar!/org/apache/logging/slf4j/MDCContextMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-to-slf4j/2.11.1/log4j-to-slf4j-2.11.1.jar!/org/apache/logging/slf4j/SLF4JLogger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-to-slf4j/2.11.1/log4j-to-slf4j-2.11.1.jar!/org/apache/logging/slf4j/SLF4JLoggerContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-to-slf4j/2.11.1/log4j-to-slf4j-2.11.1.jar!/org/apache/logging/slf4j/SLF4JLoggerContextFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-to-slf4j/2.11.1/log4j-to-slf4j-2.11.1.jar!/org/apache/logging/slf4j/SLF4JProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar!/META-INF/maven/org.slf4j/jul-to-slf4j/pom.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar!/META-INF/maven/org.slf4j/jul-to-slf4j/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar!/org/slf4j/bridge/SLF4JBridgeHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/META-INF/maven/org.slf4j/slf4j-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.8.0-beta2/slf4j-api-1.8.0-beta2.jar!/org/slf4j/MDC.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seesea/rely/thread/Runable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.8.0-beta2/slf4j-api-1.8.0-beta2.jar!/org/slf4j/spi/MDCAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar!/org/slf4j/helpers/BasicMDCAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="68" column="17" lean-forward="true" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar!/org/slf4j/spi/MDCAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar!/org/slf4j/helpers/NOPMDCAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar!/ch/qos/logback/classic/util/LogbackMDCAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../study/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../study/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar!/org/slf4j/MDC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="146" selection-start-line="146" selection-end-line="146" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../study/src/main/java/com/seesea/study/filter/LogFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
-            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seesea/rely/thread/LogMDC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+          <folding>
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
           </folding>
         </state>
       </provider>

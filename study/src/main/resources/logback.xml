@@ -17,7 +17,6 @@
 	<!-- 日志文件路径 -->
     <property name="logPath" value="/var/log/reas" />
 
-
 	<!-- ConsoleAppender 控制台输出日志 -->  
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">  
         <!-- 对日志进行格式化 -->  
