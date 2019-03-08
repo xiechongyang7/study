@@ -2,6 +2,7 @@ package com.seesea.study.config;
 
 import com.seesea.rely.aop.Inteceptor;
 import com.seesea.rely.handle.UpAnHandle;
+import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.aspectj.lang.annotation.Pointcut;
@@ -21,5 +22,16 @@ public class config {
         Pointcut pointcut = inteceptor.getClass().getDeclaredMethod("pointCut").getAnnotation(Pointcut.class);
         System.out.println("修cc之 c     值：\t" + pointcut.value());
         return inteceptor;
+    }
+
+
+    @Configuration
+    public class RabbitConfig {
+
+        @Bean
+        public Queue Queue() {
+            return new Queue("hello");
+        }
+
     }
 }

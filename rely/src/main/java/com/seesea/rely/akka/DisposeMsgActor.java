@@ -14,7 +14,7 @@ public class DisposeMsgActor extends AbstractActor {
     public Receive createReceive() {
         return receiveBuilder().match(Msg.class,t->{
             //收到消息
-            System.out.println(self()+"  DisposeMsgActor 收到消息 "+sender()+": "+ t.getContent());
+            System.out.println(self()+" DisposeMsgActor 收到消息 "+sender()+": "+ t.getContent());
             System.out.println(self()+" DisposeMsgActor 有消息 : "+t.getContent());
         }).matchAny(t->{
             System.out.println("沒有");

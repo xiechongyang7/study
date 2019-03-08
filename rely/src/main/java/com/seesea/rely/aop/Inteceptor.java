@@ -24,7 +24,7 @@ public class Inteceptor {
      * 拦截类的入口--拦截所有controller类
      */
 //    @Pointcut("execution(public * com.seesea.study.service.TestService.test(..))  ")
-    @Pointcut("execution(public * com.seesea.study.controller.*.*(..))  ")
+    @Pointcut(value = "execution(public * com.seesea.study.controller.*.*(..))  ")
     public void pointCut() {
     }
 
