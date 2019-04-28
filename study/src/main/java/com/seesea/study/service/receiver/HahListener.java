@@ -12,13 +12,14 @@ import org.springframework.amqp.rabbit.listener.api.ChannelAwareMessageListener;
 import java.io.IOException;
 
 /**
- * @description
- * @since JDK1.8
- * @createtime 2018/12/27 15:57
  * @author xiechongyang
+ * @description
+ * @createtime 2018/12/27 15:57
+ * @since JDK1.8
  */
-public class HahListener  implements ChannelAwareMessageListener {
+public class HahListener implements ChannelAwareMessageListener {
     Logger logger = LoggerFactory.getLogger(MsgSendConfirmCallBack.class);
+
     /**
      * Callback for processing a received Rabbit message.
      * <p>Implementors are supposed to process the given Message,
@@ -36,17 +37,17 @@ public class HahListener  implements ChannelAwareMessageListener {
 
         byte[] body = message.getBody();
         String reviewJson = new String(body);
-        logger.info("收到消息1:::::" + message.getMessageProperties().getCorrelationId()+reviewJson);
+        logger.info("收到消息1:::::" + message.getMessageProperties().getCorrelationId() + reviewJson);
 
-        try{
-                /**
-                 * 确认消息消费成功
-                 * 第一个参数 是消息的tag 确定哪条消息被消费了
-                 * 第二个参数是 true:额外将比第一个参数指定的 delivery tag 小的消息一并确认了(批量确认) false:当前消息被消费了
-                 */
-                channel.basicAck(message.getMessageProperties().getDeliveryTag(),false);
-        }catch (Exception e){
-            logger.error("出现错误",e.getMessage());
+        try {
+            /**
+             * 确认消息消费成功
+             * 第一个参数 是消息的tag 确定哪条消息被消费了
+             * 第二个参数是 true:额外将比第一个参数指定的 delivery tag 小的消息一并确认了(批量确认) false:当前消息被消费了
+             */
+            channel.basicAck(message.getMessageProperties().getDeliveryTag(), false);
+        } catch (Exception e) {
+            logger.error("出现错误", e.getMessage());
             /**
              * 重新投递
              * 第一个参数重新投递消息的tag
@@ -62,21 +63,21 @@ public class HahListener  implements ChannelAwareMessageListener {
             /**
              * 重复放入队列3次 还不能处理就放弃
              */
-            if(message.getMessageProperties().getDeliveryTag()>3){
-                logger.error("消息已重复处理失败，拒绝再次接受::::"+e.getMessage());
+            if (message.getMessageProperties().getDeliveryTag() > 3) {
+                logger.error("消息已重复处理失败，拒绝再次接受::::" + e.getMessage());
                 /**拒绝接受*/
                 try {
-                    channel.basicReject(message.getMessageProperties().getDeliveryTag(),false);
+                    channel.basicReject(message.getMessageProperties().getDeliveryTag(), false);
                 } catch (IOException e1) {
                     e1.printStackTrace();
                 }
 //                throw e;
-            }else {
+            } else {
 //                channel.basicNack(message.getMessageProperties().getDeliveryTag(),false,true);
                 /**
                  * 第一次出错再次放回队列
                  */
-                logger.info("第"+message.getMessageProperties().getDeliveryTag()+"出错，再次放入队列");
+                logger.info("第" + message.getMessageProperties().getDeliveryTag() + "出错，再次放入队列");
                 try {
                     channel.basicRecover();
                 } catch (IOException e1) {

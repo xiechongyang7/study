@@ -15,7 +15,7 @@ import javax.annotation.PreDestroy;
 public class ServiceImpl implements Servicehah {
     @Override
     public void hah(String a) {
-        
+
     }
 
 }

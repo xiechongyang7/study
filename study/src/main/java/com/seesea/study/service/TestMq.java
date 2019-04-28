@@ -8,10 +8,10 @@ import org.springframework.stereotype.Service;
 import java.util.UUID;
 
 /**
- * @description
- * @since JDK1.8
- * @createtime 2018/12/27 15:18
  * @author xiechongyang
+ * @description
+ * @createtime 2018/12/27 15:18
+ * @since JDK1.8
  */
 @Service
 public class TestMq {
@@ -19,9 +19,9 @@ public class TestMq {
     @Autowired
     RabbitTemplate rabbitTemplate;
 
-    public void hah(){
+    public void hah() {
         CorrelationData correlationId = new CorrelationData(UUID.randomUUID().toString());
-        rabbitTemplate.convertAndSend("exchange_test","queue_one_key1","hah",correlationId);
+        rabbitTemplate.convertAndSend("exchange_test", "queue_one_key1", "hah", correlationId);
     }
 
 }

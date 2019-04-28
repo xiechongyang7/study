@@ -13,23 +13,23 @@ import java.io.IOException;
 import java.util.Map;
 
 /**
- * @description
- * @since JDK1.8
- * @createTime 2019/3/6 下午 2:05
  * @author xiechongyang
+ * @description
+ * @createTime 2019/3/6 下午 2:05
+ * @since JDK1.8
  */
 @Component
 @RabbitListener(
         containerFactory = "rabbitListenerContainerFactory",
         bindings = @QueueBinding(value = @Queue(value = "queue_two"),
-        exchange = @Exchange(value = "exchange_two"),
-        key = "queue_two_key"))
+                exchange = @Exchange(value = "exchange_two"),
+                key = "queue_two_key"))
 public class TestReceiverImp {
 
     @RabbitHandler
-    public void process(@Payload String body, @Headers Map<String,Object> headers, Channel cc, Message message) throws Exception{
+    public void process(@Payload String body, @Headers Map<String, Object> headers, Channel cc, Message message) throws Exception {
 //        Thread.sleep(5000);
-        cc.basicAck(message.getMessageProperties().getDeliveryTag(),true);
+        cc.basicAck(message.getMessageProperties().getDeliveryTag(), true);
         ObjectMapper mapper = new ObjectMapper();
         System.out.println("Receiver : " + body + mapper.writeValueAsString(headers));
         System.out.println("Receiver : " + body + mapper.writeValueAsString(message));

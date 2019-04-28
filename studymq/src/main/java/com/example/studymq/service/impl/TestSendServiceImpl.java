@@ -5,10 +5,10 @@ import org.springframework.amqp.rabbit.annotation.*;
 import org.springframework.stereotype.Component;
 
 /**
- * @description
- * @since JDK1.8
- * @createTime 2019/3/4 下午 2:13
  * @author xiechongyang
+ * @description
+ * @createTime 2019/3/4 下午 2:13
+ * @since JDK1.8
  */
 //@RabbitListener(containerFactory = "rabbitListenerContainerFactory",bindings = @QueueBinding(
 //        value = @Queue(value = "queue_one"),

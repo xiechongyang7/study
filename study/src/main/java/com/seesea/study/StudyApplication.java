@@ -32,7 +32,7 @@ public class StudyApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        String[] strings = {"com.seesea.study.mapper","com.seesea.study.model"};
+        String[] strings = {"com.seesea.study.mapper", "com.seesea.study.model"};
         ScanHandle.scan(strings);
 
     }

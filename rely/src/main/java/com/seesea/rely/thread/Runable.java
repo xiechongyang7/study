@@ -22,8 +22,9 @@ public abstract class Runable extends LogMDC implements Runnable {
     public abstract void constRun();
 
     private void star() {
-        MDC.put("reqNo",loginfo);
+        MDC.put("reqNo", loginfo);
     }
+
     private void end() {
         MDC.remove("reqNo");
     }

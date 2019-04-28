@@ -7,11 +7,10 @@ import com.seesea.study.mapper.UserMapper;
 import com.seesea.study.model.OneList;
 import com.seesea.study.mongodb.Mian;
 import com.seesea.study.mongodb.TestBig;
-import com.seesea.study.util;
+import com.seesea.study.util.util;
 import org.apache.commons.io.FileUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.slf4j.MDC;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
@@ -23,7 +22,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Date;
 import java.util.List;
-import java.util.UUID;
 
 /**
  * @Description
@@ -55,7 +53,7 @@ public class TestService {
 //        }
         logger1.info("進入綫程前");
 //        int i = 1/0;
-        List list= userMapper.selectAll();
+        List list = userMapper.selectAll();
         OneList oneList = new OneList();
         oneList.setList(list);
 
@@ -75,8 +73,6 @@ public class TestService {
                 logger1.info("進入线程后{}");
             }
         });
-
-
 
 
         File file = new File("G:\\上线相关\\e签宝\\模板\\借款协议.pdf");

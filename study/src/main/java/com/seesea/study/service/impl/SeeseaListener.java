@@ -5,12 +5,12 @@ import com.seesea.seeseamq.service.Impl.RabbitmqListener;
 import org.springframework.stereotype.Service;
 
 /**
- * @description
- * @since JDK1.8
- * @createTime 2019/1/17 16:11
  * @author xiechongyang
+ * @description
+ * @createTime 2019/1/17 16:11
+ * @since JDK1.8
  */
-public class SeeseaListener extends RabbitmqListener{
+public class SeeseaListener extends RabbitmqListener {
 
 
     /**
@@ -20,7 +20,7 @@ public class SeeseaListener extends RabbitmqListener{
      */
     @Override
     public void callback(byte[] body) {
-        System.out.println("收到消息:::"+String.valueOf(body));
+        System.out.println("收到消息:::" + String.valueOf(body));
     }
 
     /**
@@ -30,7 +30,7 @@ public class SeeseaListener extends RabbitmqListener{
      */
     @Override
     public ConsumerInfo getConsumerInfo() {
-        ConsumerInfo consumerInfo = new ConsumerInfo("seesea.q","test");
+        ConsumerInfo consumerInfo = new ConsumerInfo("seesea.q", "test");
         return null;
     }
 }

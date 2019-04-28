@@ -139,7 +139,7 @@ public class HttpClientUtil {
             request.setHeader(new BasicHeader("Accept", "text/plain;charset=utf-8"));
             request.setEntity(new UrlEncodedFormEntity(nameValuePairs));
 
-            logger.info("请求"+request.getEntity().toString());
+            logger.info("请求" + request.getEntity().toString());
             HttpResponse response = client.execute(request);
             logger.info("响应信息 response http status: " + response.getStatusLine().getStatusCode());
             if (response.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
@@ -190,7 +190,7 @@ public class HttpClientUtil {
 //            httpPost = new HttpPost(url);
 
 
-            //        if(_params != null) {
+    //        if(_params != null) {
 //            NameValuePair[] pairs = new NameValuePair[_params.size()];//纯参数了，键值对
 //            int i = 0;
 //            for (Map.Entry<String, Object> entry : _params.entrySet()) {

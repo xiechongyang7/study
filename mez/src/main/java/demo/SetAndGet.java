@@ -9,10 +9,10 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * @description
- * @since JDK1.8
- * @createTime 2019/1/3 15:56
  * @author xiechongyang
+ * @description
+ * @createTime 2019/1/3 15:56
+ * @since JDK1.8
  */
 public class SetAndGet {
     public static void main(String[] arg) throws Exception {
@@ -43,33 +43,33 @@ public class SetAndGet {
             String line = strList.get(i);
             if (!isNullStr(line)) {
 
-                if(line.contains("package")||line.contains("import")||line.contains("static")){
+                if (line.contains("package") || line.contains("import") || line.contains("static")) {
                     continue;
                 }
 
                 if (line.contains("public")) {
                     if (line.contains("class")) {
                         className = line.split(" ")[2];
-                        className = className.substring(0,1).toLowerCase()+className.substring(1);
+                        className = className.substring(0, 1).toLowerCase() + className.substring(1);
                         continue;
                     } else {
                         break;
                     }
                 }
 
-                int bankLast  = line.lastIndexOf(" ");
+                int bankLast = line.lastIndexOf(" ");
                 int lastStr = line.indexOf(";");
                 String value = "";
-                try{
-                    value = line.substring(bankLast+1,lastStr);
-                }catch (Exception e){
-                    System.out.println(value+"出错了");
+                try {
+                    value = line.substring(bankLast + 1, lastStr);
+                } catch (Exception e) {
+                    System.out.println(value + "出错了");
                     continue;
                 }
 
-                if(line.contains("boolean")||line.contains("Boolean")){
-                    String fieldName = value.substring(0,1).toUpperCase()+value.substring(1);
-                    String getMethodName = className+".is"+ fieldName +"();";
+                if (line.contains("boolean") || line.contains("Boolean")) {
+                    String fieldName = value.substring(0, 1).toUpperCase() + value.substring(1);
+                    String getMethodName = className + ".is" + fieldName + "();";
                     getList.add(getMethodName);
                     StringBuilder setMethodName = new StringBuilder(className);
                     setMethodName.append(".set");
@@ -82,8 +82,8 @@ public class SetAndGet {
                 }
 
 
-                String fieldName = value.substring(0,1).toUpperCase()+value.substring(1);
-                String getMethodName = className+".get"+ fieldName +"();";
+                String fieldName = value.substring(0, 1).toUpperCase() + value.substring(1);
+                String getMethodName = className + ".get" + fieldName + "();";
                 getList.add(getMethodName);
                 StringBuilder setMethodName = new StringBuilder(className);
                 setMethodName.append(".set");
@@ -96,11 +96,11 @@ public class SetAndGet {
         }
 
         System.out.println("---------------------------set");
-        for(String str:setList){
+        for (String str : setList) {
             System.out.println(str);
         }
         System.out.println("---------------------------get");
-        for(String str:getList){
+        for (String str : getList) {
             System.out.println(str);
         }
         System.out.println("*********************end");

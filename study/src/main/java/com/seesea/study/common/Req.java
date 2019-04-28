@@ -10,14 +10,14 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
  * @Createtime 2018/12/13 11:55
  * @Author xie
  */
-public  class Req {
+public class Req {
     private String channelId;
     private String firstChannelId;
     private String requestId;
     private String serviceId;
 
     @JsonIgnore
-    public Result getResult(){
+    public Result getResult() {
         Result result = new Result();
 //        result.setReqId(reqId);
         result.setCode("200");

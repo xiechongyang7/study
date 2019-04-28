@@ -13,10 +13,10 @@ import java.io.IOException;
 import java.util.UUID;
 
 /**
- * @description
- * @since JDK1.8
- * @createtime 2018/12/27 15:18
  * @author xiechongyang
+ * @description
+ * @createtime 2018/12/27 15:18
+ * @since JDK1.8
  */
 @Service
 public class TestSeeMq {

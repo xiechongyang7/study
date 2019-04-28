@@ -9,6 +9,7 @@ import com.seesea.study.model.User;
 public interface UserMapper extends BaseMapper<User> {
 
     void Tes1t(String a);
+
     @FunAn
     void Test(String a);
 }

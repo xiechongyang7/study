@@ -22,16 +22,19 @@ import java.util.UUID;
 @WebFilter(urlPatterns = "/*")
 public class LogFilter implements Filter {
     Logger logger = LoggerFactory.getLogger(LogFilter.class);
+
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
         logger.info("初始化方法");
     }
+
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
-        MDC.put("reqNo",UUID.randomUUID().toString());
+        MDC.put("reqNo", UUID.randomUUID().toString());
         filterChain.doFilter(servletRequest, servletResponse);
         MDC.remove("reqNo");
     }
+
     @Override
     public void destroy() {
         logger.info("销毁方法");

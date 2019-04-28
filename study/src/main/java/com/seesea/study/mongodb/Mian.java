@@ -14,11 +14,12 @@ public class Mian {
 
     @Autowired
     private TestDao testDao;
-    public void go(TestBig testBig){
+
+    public void go(TestBig testBig) {
         testDao.save(testBig);
     }
 
-    public TestBig lets(String s){
+    public TestBig lets(String s) {
         return testDao.queryById(s);
     }
 }

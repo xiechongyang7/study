@@ -14,13 +14,13 @@ import org.springframework.context.event.ContextStoppedEvent;
 import org.springframework.stereotype.Component;
 
 /**
- * @description
- * @since JDK1.8
- * @createTime 2019/1/17 18:02
  * @author xiechongyang
+ * @description
+ * @createTime 2019/1/17 18:02
+ * @since JDK1.8
  */
 @Component
-public class ApplicationEventListener  implements ApplicationListener<ApplicationEvent> {
+public class ApplicationEventListener implements ApplicationListener<ApplicationEvent> {
 
     private Logger logger = LoggerFactory.getLogger(getClass());
 

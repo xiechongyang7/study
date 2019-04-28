@@ -44,7 +44,7 @@ public class hbase2 {
 //        System.out.println(table.get(new Get("1234".getBytes())));
 //        System.out.println("over");
         Put put = new Put("1234".getBytes());
-        put.addColumn("test".getBytes(),"test".getBytes(),"456".getBytes());
+        put.addColumn("test".getBytes(), "test".getBytes(), "456".getBytes());
         table.put(put);
     }
 }

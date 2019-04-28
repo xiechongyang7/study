@@ -11,14 +11,14 @@ import org.springframework.util.StringUtils;
 public class Test {
 
 
-        public static void main(String arg[]){
-            int feeCount;
-            String feeCountStr  = null+"";
+    public static void main(String arg[]) {
+        int feeCount;
+        String feeCountStr = null + "";
 
-            System.out.println("null".equals(feeCountStr));
-            if(!("".equals(feeCountStr))){
-                feeCount = Integer.valueOf(feeCountStr);
-                System.out.println("dd");
-            }
+        System.out.println("null".equals(feeCountStr));
+        if (!("".equals(feeCountStr))) {
+            feeCount = Integer.valueOf(feeCountStr);
+            System.out.println("dd");
+        }
     }
 }

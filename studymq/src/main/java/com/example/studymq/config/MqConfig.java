@@ -8,54 +8,58 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @description
- * @since JDK1.8
- * @createtime 2018/12/27 15:22
  * @author xiechongyang
+ * @description
+ * @createtime 2018/12/27 15:22
+ * @since JDK1.8
  */
 @Configuration
 public class MqConfig {
 
     @Autowired
     CachingConnectionFactory cachingConnectionFactory;
+
     /**
-     *  1.定义direct exchange，绑定queueTest
-     *  2.durable="true" rabbitmq重启的时候不需要创建新的交换机
-     *  3.direct交换器相对来说比较简单，匹配规则为：如果路由键匹配，消息就被投送到相关的队列
-     *  fanout交换器中没有路由键的概念，他会把消息发送到所有绑定在此交换器上面的队列中。
-     *  topic交换器你采用模糊匹配路由键的原则进行转发消息到队列中
-     *  key: queue在该direct-exchange中的key值，
-     *  当消息发送给direct-exchange中指定key为设置值时，消息将会转发给queue参数指定的消息队列
+     * 1.定义direct exchange，绑定queueTest
+     * 2.durable="true" rabbitmq重启的时候不需要创建新的交换机
+     * 3.direct交换器相对来说比较简单，匹配规则为：如果路由键匹配，消息就被投送到相关的队列
+     * fanout交换器中没有路由键的概念，他会把消息发送到所有绑定在此交换器上面的队列中。
+     * topic交换器你采用模糊匹配路由键的原则进行转发消息到队列中
+     * key: queue在该direct-exchange中的key值，
+     * 当消息发送给direct-exchange中指定key为设置值时，消息将会转发给queue参数指定的消息队列
+     *
      * @return
      */
     @Bean
-    public DirectExchange directExchange(){
+    public DirectExchange directExchange() {
         DirectExchange directExchange =
-                new DirectExchange("exchange_test",true,false);
+                new DirectExchange("exchange_test", true, false);
         return directExchange;
     }
 
     /**
      * 定义队列1
+     *
      * @return
      */
     @Bean
-    public Queue queue_one(){
+    public Queue queue_one() {
         /**
          * durable="true" 持久化 rabbitmq重启的时候不需要创建新的队列
          * auto-delete 表示消息队列没有在使用时将被自动删除 默认是false
          * exclusive  表示该消息队列是否只在当前connection生效,默认是false
          */
-        Queue queue = new Queue("queue_one",true,false,false);
+        Queue queue = new Queue("queue_one", true, false, false);
         return queue;
     }
 
     /**
      * 将消息队列1和交换机进行绑定
+     *
      * @return
      */
     @Bean
-    public Binding binding_one(){
+    public Binding binding_one() {
         return BindingBuilder.bind(queue_one()).to(directExchange()).with("queue_one_key1");
     }
 
@@ -99,10 +103,11 @@ public class MqConfig {
 
     /**
      * 定义rabbitmq template用于接收发送数据
+     *
      * @return
      */
     @Bean
-    public RabbitTemplate rabbitTemplate(){
+    public RabbitTemplate rabbitTemplate() {
         RabbitTemplate template = new RabbitTemplate(cachingConnectionFactory);
         /**
          * 若使用confirm-callback或者return-callback，必须配置publishConfirms或publisherReturn为true

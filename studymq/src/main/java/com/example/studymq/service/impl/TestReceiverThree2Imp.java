@@ -5,10 +5,10 @@ import org.springframework.amqp.rabbit.annotation.*;
 import org.springframework.stereotype.Component;
 
 /**
- * @description
- * @since JDK1.8
- * @createTime 2019/3/6 下午 4:10
  * @author xiechongyang
+ * @description
+ * @createTime 2019/3/6 下午 4:10
+ * @since JDK1.8
  */
 @Component
 @RabbitListener(
@@ -19,6 +19,6 @@ public class TestReceiverThree2Imp {
 
     @RabbitHandler
     public void process(Message message) {
-        System.out.println("哈哈"+new String(message.getBody()));
+        System.out.println("哈哈" + new String(message.getBody()));
     }
 }

@@ -25,15 +25,17 @@ public abstract class MongoTest<T> {
 
     /**
      * 保存
+     *
      * @param t
      */
-    public void save(T t){
+    public void save(T t) {
         log.info("[Mongo Dao ]save:" + t);
         this.mongoTemplate.save(t);
     }
 
     /**
      * 查询单个
+     *
      * @param id
      * @return
      */
@@ -47,25 +49,27 @@ public abstract class MongoTest<T> {
 
     /**
      * 分页查询
+     *
      * @param query
      * @param start
      * @param size
      * @return
      */
-    public List<T> getPage(Query query, int start, int size){
+    public List<T> getPage(Query query, int start, int size) {
         query.skip(start);
         query.limit(size);
-        log.info("[Mongo Dao ]queryPage:" + query + "(" + start +"," + size +")");
+        log.info("[Mongo Dao ]queryPage:" + query + "(" + start + "," + size + ")");
         List<T> lists = this.mongoTemplate.find(query, this.getEntityClass());
         return lists;
     }
 
     /**
      * 查询
+     *
      * @param query
      * @return
      */
-    public Long getPageCount(Query query){
+    public Long getPageCount(Query query) {
         log.info("[Mongo Dao ]queryPageCount:" + query);
         return this.mongoTemplate.count(query, this.getEntityClass());
     }
@@ -89,39 +93,43 @@ public abstract class MongoTest<T> {
 
     /**
      * 删除
+     *
      * @param t
      */
-    public void delete(T t){
+    public void delete(T t) {
         log.info("[Mongo Dao ]delete:" + t);
         this.mongoTemplate.remove(t);
     }
 
     /**
      * 修改第一个
+     *
      * @param query
      * @param update
      */
-    public void updateFirst(Query query,Update update){
+    public void updateFirst(Query query, Update update) {
         log.info("[Mongo Dao ]updateFirst:query(" + query + "),update(" + update + ")");
         this.mongoTemplate.updateFirst(query, update, this.getEntityClass());
     }
 
     /**
      * 修改所有
+     *
      * @param query
      * @param update
      */
-    public void updateMulti(Query query, Update update){
+    public void updateMulti(Query query, Update update) {
         log.info("[Mongo Dao ]updateMulti:query(" + query + "),update(" + update + ")");
         this.mongoTemplate.updateMulti(query, update, this.getEntityClass());
     }
 
     /**
      * 查找更新
+     *
      * @param query
      * @param update
      */
-    public void updateInser(Query query, Update update){
+    public void updateInser(Query query, Update update) {
         log.info("[Mongo Dao ]updateInser:query(" + query + "),update(" + update + ")");
         this.mongoTemplate.upsert(query, update, this.getEntityClass());
     }

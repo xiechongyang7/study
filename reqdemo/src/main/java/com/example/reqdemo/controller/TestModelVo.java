@@ -5,10 +5,10 @@ import org.springframework.web.multipart.MultipartFile;
 import java.util.List;
 
 /**
- * @description
- * @since JDK1.8
- * @createTime 2019/2/13 上午 11:08
  * @author xiechongyang
+ * @description
+ * @createTime 2019/2/13 上午 11:08
+ * @since JDK1.8
  */
 public class TestModelVo {
     // byte short int double float char boolean long

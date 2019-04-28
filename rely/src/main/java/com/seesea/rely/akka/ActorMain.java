@@ -17,11 +17,11 @@ public class ActorMain {
         ActorSystem system = ActorSystem.create("msgSystem");
 
         //生成角色 ProduceMsgActor
-        ActorRef produceMsgActor = system.actorOf(new BalancingPool(3).props(Props.create(ProduceMsgActor.class)),"ProduceMsgActor");
+        ActorRef produceMsgActor = system.actorOf(new BalancingPool(3).props(Props.create(ProduceMsgActor.class)), "ProduceMsgActor");
         //生成角色 DisposeMsgActor
-        ActorRef disposeMsgActor = system.actorOf(new BalancingPool(2).props(Props.create(DisposeMsgActor.class)),"DisposeMsgActor");
+        ActorRef disposeMsgActor = system.actorOf(new BalancingPool(2).props(Props.create(DisposeMsgActor.class)), "DisposeMsgActor");
 
         //给produceMsgActor发消息请求
-        produceMsgActor.tell("生產一個消息",ActorRef.noSender());
+        produceMsgActor.tell("生產一個消息", ActorRef.noSender());
     }
 }

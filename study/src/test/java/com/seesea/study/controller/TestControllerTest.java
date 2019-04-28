@@ -3,9 +3,8 @@ package com.seesea.study.controller;
 
 import com.seesea.study.mongodb.Mian;
 import com.seesea.study.mongodb.TestBig;
-import com.seesea.study.util;
+import com.seesea.study.util.util;
 import org.apache.commons.io.FileUtils;
-import org.apache.commons.io.IOUtils;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +13,6 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.ResultMatcher;
-import org.springframework.test.web.servlet.result.StatusResultMatchers;
 
 import java.io.File;
 import java.io.IOException;
@@ -53,7 +51,6 @@ public class TestControllerTest {
         testBig.setId(1);
 
         testBig.setData(util.byte2Base64StringFun(FileUtils.readFileToByteArray(file)));
-
 
 
     }

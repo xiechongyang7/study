@@ -17,11 +17,12 @@ import javax.servlet.http.HttpServletRequest;
 public abstract class BaseController {
 
     public Logger logger = LoggerFactory.getLogger(this.getClass());
+
     @ExceptionHandler(Exception.class)
     @ResponseBody
     public Object exp(Exception ex) {
         Result result = new Result();
-        logger.info("好好{}",this.toString());
+        logger.info("好好{}", this.toString());
         if (ex instanceof NullPointerException) {
 //            logger.error("{}传输报文参数空指针异常..", new Object[] { requestURI }, ex);
             result.setCode("ddd");
@@ -30,7 +31,7 @@ public abstract class BaseController {
 //            logger.error("{}传输报文参数异常..", new Object[] { requestURI }, ex);
             result.setCode("ccc");
             result.setMsg("ccc");
-        }else if (ex instanceof BaseException) {
+        } else if (ex instanceof BaseException) {
 //            logger.error("{}传输报文参数异常..", new Object[] { requestURI }, ex);
             BaseException e = (BaseException) ex;
             result.setCode(e.errCode);

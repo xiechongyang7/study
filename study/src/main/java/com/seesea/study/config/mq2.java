@@ -14,10 +14,10 @@ import org.springframework.context.annotation.Configuration;
 import java.io.IOException;
 
 /**
- * @description
- * @since JDK1.8
- * @createTime 2019/1/17 16:14
  * @author xiechongyang
+ * @description
+ * @createTime 2019/1/17 16:14
+ * @since JDK1.8
  */
 @Configuration
 public class mq2 {
@@ -35,8 +35,8 @@ public class mq2 {
 //                        exchangeBuilder,queueBuilder,bindBuilder);
 
         RabbitMqConfig rabbitMqConfig =
-                new RabbitMqConfig("127.0.0.1","5672","guest","guest",
-                        exchangeBuilder,queueBuilder,bindBuilder);
+                new RabbitMqConfig("127.0.0.1", "5672", "guest", "guest",
+                        exchangeBuilder, queueBuilder, bindBuilder);
 
         SeeseaListener seeseaListener = new SeeseaListener();
         return seeseaListener;

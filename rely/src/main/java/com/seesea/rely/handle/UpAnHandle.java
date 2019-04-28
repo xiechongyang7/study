@@ -17,7 +17,6 @@ import java.util.Map;
 public class UpAnHandle {
 
 
-
     public Inteceptor upHandle(String packName) throws NoSuchMethodException, NoSuchFieldException, IllegalAccessException, ClassNotFoundException {
 
         StringBuffer buffer = new StringBuffer("\"execution(public * ");
@@ -32,7 +31,7 @@ public class UpAnHandle {
         declaredField.setAccessible(true);
         Map memberValues = (Map) declaredField.get(invocationHandler);
         // 修改 value 属性值
-        memberValues.put("value",buffer.toString());
+        memberValues.put("value", buffer.toString());
         // 获取 foo 的 value 属性值
         String newValue = pointcut.value();
         System.out.println("修改之后的 注解值：\t" + newValue);

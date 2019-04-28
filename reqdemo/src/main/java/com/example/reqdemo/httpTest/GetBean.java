@@ -6,14 +6,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @description
- * @since JDK1.8
- * @createTime 2019/2/13 上午 11:54
  * @author xiechongyang
+ * @description
+ * @createTime 2019/2/13 上午 11:54
+ * @since JDK1.8
  */
 public class GetBean {
 
-    public static TestModel getBean(){
+    public static TestModel getBean() {
         TestModel testModel = new TestModel();
 
         List<String> list = new ArrayList<>();
@@ -41,7 +41,7 @@ public class GetBean {
     }
 
 
-    public static void main(String[] arg){
+    public static void main(String[] arg) {
         getBean();
     }
 }

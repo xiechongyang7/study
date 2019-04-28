@@ -8,15 +8,16 @@ import akka.japi.pf.ReceiveBuilder;
 import scala.io.StdIn;
 
 /**
- * @description
- * @since JDK1.8
- * @createTime 2019/1/30 上午 11:22
  * @author xiechongyang
+ * @description
+ * @createTime 2019/1/30 上午 11:22
+ * @since JDK1.8
  */
 public class App {
     static class Counter extends AbstractLoggingActor {
         // protocol
-        static class Message { }
+        static class Message {
+        }
 
 
         private int counter = 0;

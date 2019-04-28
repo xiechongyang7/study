@@ -40,15 +40,16 @@ public class TestController extends BaseController {
     @ResponseBody
     @PostMapping(value = "test1")
     public Result test1(@RequestBody Heihei heihei) throws BaseException, IOException {
-        logger.info("入"+heihei.toString());
+        logger.info("入" + heihei.toString());
         Result ii = heihei.getResult();
-        logger.info("取"+ii.toString());
+        logger.info("取" + ii.toString());
         OneList list = testService.test(heihei.getI());
-        logger.info("拿"+list.toString());
+        logger.info("拿" + list.toString());
         ii.setData(list);
-        logger.info("回"+ii.toString());
+        logger.info("回" + ii.toString());
         return ii;
     }
+
     @ResponseBody
     @PostMapping(value = "test2")
     public Object test2(@RequestBody Heihei heihei) throws BaseException, IOException {

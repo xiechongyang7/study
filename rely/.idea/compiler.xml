@@ -14,6 +14,7 @@
         <module name="seesea-mq" />
         <module name="seeseabookclub" />
         <module name="study" />
+        <module name="studyakka" />
         <module name="studymq" />
       </profile>
     </annotationProcessing>

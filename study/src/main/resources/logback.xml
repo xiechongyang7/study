@@ -10,25 +10,25 @@
  -->
 <configuration scan="true" scanPeriod="60 seconds" debug="false">
 
-	<!-- 上下文名称 -->
-	<contextName>Log</contextName> 
-	<!-- 项目名 -->
-	<property name="AppName" value="study" />
-	<!-- 日志文件路径 -->
-    <property name="logPath" value="/var/log/reas" />
+    <!-- 上下文名称 -->
+    <contextName>Log</contextName>
+    <!-- 项目名 -->
+    <property name="AppName" value="study"/>
+    <!-- 日志文件路径 -->
+    <property name="logPath" value="/var/log/reas"/>
 
-	<!-- ConsoleAppender 控制台输出日志 -->  
-    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">  
-        <!-- 对日志进行格式化 -->  
-        <encoder>  
-        	<charset>UTF-8</charset>
+    <!-- ConsoleAppender 控制台输出日志 -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- 对日志进行格式化 -->
+        <encoder>
+            <charset>UTF-8</charset>
             <pattern>${AppName} %X{reqNo} %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>
         </encoder>
-          
+
     </appender>
 
     <!-- 按照每天生成日志文件 -->
-    <appender name="logFile"  class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <appender name="logFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${logPath}/${AppName}_stdout.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!--日志文件输出的文件名-->
@@ -42,10 +42,10 @@
         </encoder>
     </appender>
 
-	<!-- 根logger -->
-	<root level="INFO">
-		 <appender-ref ref="STDOUT" /> 
-		 <appender-ref ref="logFile" />
-	</root>
+    <!-- 根logger -->
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="logFile"/>
+    </root>
 
 </configuration>

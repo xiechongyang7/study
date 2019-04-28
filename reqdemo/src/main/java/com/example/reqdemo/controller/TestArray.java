@@ -3,10 +3,10 @@ package com.example.reqdemo.controller;
 import java.util.List;
 
 /**
- * @description
- * @since JDK1.8
- * @createTime 2019/2/14 上午 9:55
  * @author xiechongyang
+ * @description
+ * @createTime 2019/2/14 上午 9:55
+ * @since JDK1.8
  */
 public class TestArray {
 

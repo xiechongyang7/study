@@ -12,20 +12,20 @@ import akka.actor.ActorSelection;
 public class ProduceMsgActor extends AbstractActor {
     @Override
     public Receive createReceive() {
-        return receiveBuilder().match(String.class,t->{
+        return receiveBuilder().match(String.class, t -> {
             //收到消息
-            System.out.println(self()+" ProduceMsgActor 收到消息 "+sender()+": "+ t);
+            System.out.println(self() + " ProduceMsgActor 收到消息 " + sender() + ": " + t);
 
             //响应消息请求
             Msg msg = new Msg("haha");
-            System.out.println(self()+" ProduceMsgActor 生產消息 msg : "+msg.getContent());
+            System.out.println(self() + " ProduceMsgActor 生產消息 msg : " + msg.getContent());
 
             //根据路径查找下一个处理者
             ActorSelection nextDisposeRefs = getContext().actorSelection("/user/DisposeMsgActor");
 
             //将消息发给下一个处理者DisposeMsgActor
-            nextDisposeRefs.tell(msg,self());
-        }).matchAny(t->{
+            nextDisposeRefs.tell(msg, self());
+        }).matchAny(t -> {
             System.out.println("沒有");
         }).build();
     }

@@ -1,12 +1,12 @@
 package com.seesea.rely.proxy;
 
 /**
- * @description
- * @since JDK1.8
- * @createTime 2018/12/27 17:18
  * @author xiechongyang
+ * @description
+ * @createTime 2018/12/27 17:18
+ * @since JDK1.8
  */
-public class RealStar implements Star{
+public class RealStar implements Star {
     @Override
     public void confer() {
         System.out.println("明星面谈");

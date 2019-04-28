@@ -8,8 +8,8 @@ import org.slf4j.MDC;
  * @Createtime 2018/12/14 17:58
  * @Author xie
  */
-abstract class LogMDC{
-    String getMDC(){
+abstract class LogMDC {
+    String getMDC() {
         return MDC.get("reqNo");
     }
 }

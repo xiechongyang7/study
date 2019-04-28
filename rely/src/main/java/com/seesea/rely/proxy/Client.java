@@ -3,10 +3,10 @@ package com.seesea.rely.proxy;
 import java.lang.reflect.Proxy;
 
 /**
- * @description
- * @since JDK1.8
- * @createTime 2018/12/27 17:16
  * @author xiechongyang
+ * @description
+ * @createTime 2018/12/27 17:16
+ * @since JDK1.8
  */
 public class Client {
     public static void main(String[] args) {

@@ -8,10 +8,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 /**
- * @description
- * @since JDK1.8
- * @createTime 2019/3/6 上午 11:55
  * @author xiechongyang
+ * @description
+ * @createTime 2019/3/6 上午 11:55
+ * @since JDK1.8
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest

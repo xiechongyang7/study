@@ -54,7 +54,6 @@ public class Result {
 }
 
 
-
 //
 //    public void setData(Object data) {
 //        try{

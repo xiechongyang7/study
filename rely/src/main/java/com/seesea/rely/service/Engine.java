@@ -5,10 +5,10 @@ import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
 
 /**
- * @description
- * @since JDK1.8
- * @createTime 2018/12/29 10:17
  * @author xiechongyang
+ * @description
+ * @createTime 2018/12/29 10:17
+ * @since JDK1.8
  */
 public class Engine {
 
@@ -29,7 +29,7 @@ public class Engine {
         }
     }
 
-    public static void main(String arg[]){
+    public static void main(String arg[]) {
         jsFunction();
     }
 }

@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * @description
- * @since JDK1.8
- * @createTime 2019/3/6 下午 1:44
  * @author xiechongyang
+ * @description
+ * @createTime 2019/3/6 下午 1:44
+ * @since JDK1.8
  */
 @Controller
 public class GoCon {
@@ -19,15 +19,15 @@ public class GoCon {
     SendImpl send;
 
     @RequestMapping(value = "/go/{a}")
-    public Object getViewable(@PathVariable int a){
+    public Object getViewable(@PathVariable int a) {
 //        send.send();
-        if(a==2){
+        if (a == 2) {
             send.sendw();
-        }else if(a == 3){
+        } else if (a == 3) {
             send.sendt();
-        }else if(a == 4){
+        } else if (a == 4) {
             send.sendf();
-        }else if(a == 5){
+        } else if (a == 5) {
             send.sendv();
         }
         return "hah";

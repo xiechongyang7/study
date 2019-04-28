@@ -8,7 +8,7 @@ package com.seesea.rely.akka;
  */
 public class Msg {
 
-    private String  content = "apple";
+    private String content = "apple";
 
     public Msg(String content) {
         this.content = content;
