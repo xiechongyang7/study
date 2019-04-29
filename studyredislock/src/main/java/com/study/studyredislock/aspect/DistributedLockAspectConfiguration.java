@@ -66,21 +66,17 @@ public class DistributedLockAspectConfiguration {
         int retryTimes = lockAction.action().equals(DistributeLock.LockFailAction.CONTINUE) ? lockAction.retryTimes() : 0;
         boolean lock = distributedLock.lock(logKey, lockAction.keepMills(), retryTimes, lockAction.sleepMills());
         if (!lock) {
-            logger.debug("get lock failed : " + logKey);
-            return null;
+            logger.error("获取锁失败 : " + logKey);
+            throw new Exception("加锁失败");
         }
-
         //得到锁,执行方法，释放锁
-        logger.debug("get lock success : " + logKey);
+        logger.info("加锁成功: " + logKey);
         try {
             return pjp.proceed();
-        } catch (Exception e) {
-            logger.error("execute locked method occured an exception", e);
         } finally {
             boolean releaseResult = distributedLock.releaseLock(logKey);
-            logger.debug("release lock : " + logKey + (releaseResult ? " success" : " failed"));
+            logger.info("释放锁 : " + logKey + (releaseResult ? " success" : " failed"));
         }
-        return null;
     }
 
     /**
@@ -95,7 +91,7 @@ public class DistributedLockAspectConfiguration {
         String name = lockAction.name();
         String value = lockAction.value();
         Object[] args = pjp.getArgs();
-        return parse(name, method, args) + "_" + parse(value, method, args);
+        return parse(name, method, args) + ":" + parse(value, method, args);
     }
 
     /**
@@ -115,7 +111,8 @@ public class DistributedLockAspectConfiguration {
         for (int i = 0; i < params.length; i++) {
             context.setVariable(params[i], args[i]);
         }
-        return parser.parseExpression(key).getValue(context, String.class);
+        String str = parser.parseExpression(key).getValue(context, String.class);
+        return str;
     }
 
 }

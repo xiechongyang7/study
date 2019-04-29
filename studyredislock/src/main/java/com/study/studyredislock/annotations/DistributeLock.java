@@ -20,8 +20,8 @@ public @interface DistributeLock {
      * 支持 spring el 表达式
      * @return
      */
-    @AliasFor("name")
-    String name() default "'default'";
+    @AliasFor("key")
+    String name();
 
     /**
      * 锁的资源 value
@@ -29,19 +29,30 @@ public @interface DistributeLock {
      * @return
      */
     @AliasFor("value")
-    String value() default "'default'";
+    String value();
 
     /**
-     * 持锁时间，单位毫秒
+     * 持锁时间，单位毫秒 默认一分钟
      * @return
      */
-    long keepMills() default 5000;
+    long keepMills() default 30000;
 
     /**
      * 当获取失败时候的操作
      * @return
      */
     LockFailAction action() default LockFailAction.CONTINUE;
+
+    /**
+     * 重试的间隔时间，设置GIVEUP忽略此项  默认一秒重试
+     */
+    long sleepMills() default 1000;
+
+    /**
+     * 重试次数
+     */
+    int retryTimes() default 5;
+
 
     public enum LockFailAction{
         /** 放弃 */
@@ -50,13 +61,4 @@ public @interface DistributeLock {
         CONTINUE;
     }
 
-    /**
-     * 重试的间隔时间，设置GIVEUP忽略此项
-     */
-    long sleepMills() default 200;
-
-    /**
-     * 重试次数
-     */
-    int retryTimes() default 5;
 }

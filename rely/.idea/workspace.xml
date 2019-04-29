@@ -234,8 +234,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1493" />
-    <option name="y" value="170" />
+    <option name="x" value="1358" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
@@ -244,7 +244,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -289,8 +290,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -580,7 +580,8 @@
       <workItem from="1555917612678" duration="2503000" />
       <workItem from="1556171378547" duration="635000" />
       <workItem from="1556418267648" duration="1348000" />
-      <workItem from="1556431511524" duration="1284000" />
+      <workItem from="1556431511524" duration="1286000" />
+      <workItem from="1556503291621" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1544672846109</created>
@@ -629,11 +630,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="385307000" />
+    <option name="totallyTimeSpent" value="385328000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5010661" side_tool="true" weight="0.2618262" />
@@ -655,7 +655,7 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.49174917" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.32879046" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32998326" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.13960114" visible="true" weight="0.25426438" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.13960114" visible="true" weight="0.25692964" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info id="Web" order="3" sideWeight="0.502008" side_tool="true" weight="0.2730711" />
       <window_info anchor="right" id="Theme Preview" order="9" />

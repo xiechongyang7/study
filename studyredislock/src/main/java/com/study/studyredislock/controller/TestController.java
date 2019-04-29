@@ -1,7 +1,9 @@
 package com.study.studyredislock.controller;
 
+import com.study.studyredislock.entity.Demo;
 import com.study.studyredislock.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -22,6 +24,11 @@ public class TestController {
 
     @RequestMapping(value = "/distributedLockTest/{key}/{value}", method = {RequestMethod.POST, RequestMethod.GET})
     public String distributedLockTest(@PathVariable String key, @PathVariable String value) throws InterruptedException {
-        return testService.distributedLockTest(key, value);
+
+        Demo demo = new Demo();
+        demo.setValue(value);
+        demo.setKey(key);
+        return testService.distributedLockTest(demo);
+
     }
 }
