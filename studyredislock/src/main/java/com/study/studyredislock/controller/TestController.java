@@ -1,5 +1,6 @@
 package com.study.studyredislock.controller;
 
+import com.study.studyredislock.annotations.Limiting;
 import com.study.studyredislock.entity.Demo;
 import com.study.studyredislock.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,5 +31,11 @@ public class TestController {
         demo.setKey(key);
         return testService.distributedLockTest(demo);
 
+    }
+
+    @Limiting(frequency = 1)
+    @RequestMapping(value = "limiting", method = {RequestMethod.POST})
+    public String testLimiting() throws InterruptedException {
+        return "hhah";
     }
 }
