@@ -6,17 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ai" />
-        <module name="experiment" />
-        <module name="mez" />
-        <module name="rely" />
-        <module name="reqdemo" />
         <module name="seesea-mq" />
-        <module name="seeseabookclub" />
-        <module name="study" />
         <module name="studyakka" />
+        <module name="reqdemo" />
+        <module name="experiment" />
+        <module name="ai" />
         <module name="studymq" />
+        <module name="rely" />
+        <module name="study" />
+        <module name="seeseabookclub" />
+        <module name="mez" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="reqdemo" options="-parameters" />
+      <module name="seeseabookclub" options="-parameters" />
+      <module name="study" options="-parameters" />
+      <module name="studyakka" options="-parameters" />
+      <module name="studymq" options="-parameters" />
+    </option>
   </component>
 </project>
