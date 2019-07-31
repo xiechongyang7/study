@@ -42,7 +42,9 @@ public class SetAndGet {
         for (i = 0; i < strList.size(); i++) {
             String line = strList.get(i);
             if (!isNullStr(line)) {
-
+                if(line.contains("get")&&line.contains("(")){
+                    break;
+                }
                 if (line.contains("package")
                         || line.contains("import")
                         || line.contains("/")
