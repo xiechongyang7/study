@@ -43,7 +43,12 @@ public class SetAndGet {
             String line = strList.get(i);
             if (!isNullStr(line)) {
 
-                if (line.contains("package") || line.contains("import") || line.contains("static")) {
+                if (line.contains("package")
+                        || line.contains("import")
+                        || line.contains("/")
+                        || line.contains("@")
+                        || line.contains("*")
+                ) {
                     continue;
                 }
 
