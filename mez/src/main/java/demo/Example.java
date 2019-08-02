@@ -9,12 +9,13 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * @author xiechongyang
  * @description
- * @createTime 2019/1/3 15:56
  * @since JDK1.8
+ * @createTime 2019/8/2 下午 1:46
+ * @author xiechongyang
  */
-public class SetAndGet {
+public class Example {
+
     public static void main(String[] arg) throws Exception {
         System.out.println("*********************start");
         Scanner sc = new Scanner(System.in);
@@ -36,8 +37,8 @@ public class SetAndGet {
         }
 
         String className = "className";
-        List<String> setList = new ArrayList<>();
-        List<String> getList = new ArrayList<>();
+//        List<String> setList = new ArrayList<>();
+//        List<String> getList = new ArrayList<>();
         int i;
         for (i = 0; i < strList.size(); i++) {
             String line = strList.get(i);
@@ -74,49 +75,50 @@ public class SetAndGet {
                     continue;
                 }
 
-                if (line.contains("boolean") || line.contains("Boolean")) {
-                    String fieldName = value.substring(0, 1).toUpperCase() + value.substring(1);
-                    String getMethodName = className + ".is" + fieldName + "();";
-                    getList.add(getMethodName);
-                    StringBuilder setMethodName = new StringBuilder(className);
-                    setMethodName.append(".set");
-                    setMethodName.append(fieldName);
-                    setMethodName.append("(");
-                    setMethodName.append(value);
-                    setMethodName.append(");");
-                    setList.add(String.valueOf(setMethodName));
-                    continue;
-                }
+//                if (line.contains("boolean") || line.contains("Boolean")) {
+//                    String fieldName = value.substring(0, 1).toUpperCase() + value.substring(1);
+//                    String getMethodName = className + ".is" + fieldName + "();";
+//                    getList.add(getMethodName);
+//                    StringBuilder setMethodName = new StringBuilder(className);
+//                    setMethodName.append(".set");
+//                    setMethodName.append(fieldName);
+//                    setMethodName.append("(");
+//                    setMethodName.append(value);
+//                    setMethodName.append(");");
+//                    setList.add(String.valueOf(setMethodName));
+//                    continue;
+//                }
 
 
                 String fieldName = value.substring(0, 1).toUpperCase() + value.substring(1);
-                String getMethodName = "String "+ value +" = "+className + ".get" + fieldName + "();";
-                getList.add(getMethodName);
+
                 StringBuilder setMethodName = new StringBuilder(className);
-                setMethodName.append(".set");
-                setMethodName.append(fieldName);
-                setMethodName.append("(");
-                setMethodName.append(value);
-                setMethodName.append(");");
-                setList.add(String.valueOf(setMethodName));
+
+
+//                String getMethodName = className + ".get" + fieldName + "();";
+//                getList.add(getMethodName);
+//                StringBuilder setMethodName = new StringBuilder(className);
+//                setMethodName.append(".set");
+//                setMethodName.append(fieldName);
+//                setMethodName.append("(");
+//                setMethodName.append(value);
+//                setMethodName.append(");");
+//                setList.add(String.valueOf(setMethodName));
             }
         }
 
-        System.out.println("---------------------------set");
-        for (String str : setList) {
-            System.out.println(str);
-        }
-        System.out.println("---------------------------get");
-        for (String str : getList) {
-            System.out.println(str);
-        }
+        System.out.println("---------------------------start");
+//        for (String str : setList) {
+//            System.out.println(str);
+//        }
+//        System.out.println("---------------------------get");
+//        for (String str : getList) {
+//            System.out.println(str);
+//        }
         System.out.println("*********************end");
     }
 
 
-//    private static String getMethodName(){
-//
-//    }
     /**
      * 判断是否为空
      *
@@ -126,5 +128,6 @@ public class SetAndGet {
     private static boolean isNullStr(String str) {
         return str.length() == 0 || "".equals(str) || str == null;
     }
+
 
 }
