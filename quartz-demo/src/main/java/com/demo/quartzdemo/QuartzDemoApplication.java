@@ -1,6 +1,5 @@
 package com.demo.quartzdemo;
 
-import com.demo.quartzdemo.job.JobOne;
 import com.demo.quartzdemo.service.QuartzService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -24,16 +23,17 @@ public class QuartzDemoApplication implements CommandLineRunner {
         HashMap<String,Object> map = new HashMap<>();
         map.put("name",1);
 
-        Class.forName("JobOne");
+        Class clz =  Class.forName("com.demo.quartzdemo.job.JobOne");
+
         quartzService.deleteJob("job", "test");
-        quartzService.addJob(JobOne.class, "job", "test", "0/5 * * * * ? ", map);
+        quartzService.addJob(clz, "job", "test", "0/5 * * * * ? ", map);
 
 //        map.put("name",2);
         quartzService.deleteJob("job2", "test");
 //        quartzService.addJob(JobOne.class, "job2", "test", "10 * * * * ?", map);
 
 //        map.put("name",3);
-        quartzService.deleteJob("job3", "test2");
+//        quartzService.deleteJob("job3", "test2");
 //        quartzService.addJob(JobOne.class, "job3", "test2", "15 * * * * ?", map);
     }
 }
